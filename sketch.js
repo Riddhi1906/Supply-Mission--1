@@ -83,6 +83,11 @@ function draw() {
 
   drawSprites();
  
+  textSize(20);
+  fill("white");
+  text("Left and Right Arrow for moving",485,30);
+  text("Down Arrow to drop the package",480,60);	
+	
 }
 
 function keyPressed() {
